@@ -15,15 +15,15 @@ export default function HomeScreen() {
           Expo Navigation
         </Text>
 
-        <Text className='text-2xl font-work-black'>
+        <Text className='text-2xl font-work-black text-primary'>
           Expo Navigation
         </Text>
 
-        <Text className='text-2xl font-work-medium'>
+        <Text className='text-2xl font-work-medium text-secondary'>
           Expo Navigation
         </Text>
 
-        <Text className='text-2xl font-work-light'>
+        <Text className='text-2xl font-work-light text-tertiary'>
           Expo Navigation
         </Text>
       </View>
