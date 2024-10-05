@@ -5,6 +5,7 @@ export default function StackLayout() {
     <Stack
       screenOptions={{
         headerShadowVisible: false,
+        animation: 'slide_from_right',
         contentStyle: {
           backgroundColor: 'white'
         }
