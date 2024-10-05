@@ -13,10 +13,10 @@ export default function TabsLayout() {
         name='(stack)'
         options={{
           title: 'Stack',
-          tabBarIcon: ({ color }) => (
+          tabBarIcon: ({ color, size }) => (
             <Ionicons
-              size={28}
               name='file-tray-stacked-outline'
+              size={size}
               color={color}
             />
           )
@@ -26,10 +26,10 @@ export default function TabsLayout() {
         name='home/index'
         options={{
           title: 'Home',
-          tabBarIcon: ({ color }) => (
+          tabBarIcon: ({ color, size }) => (
             <Ionicons
-              size={28}
               name='home-outline'
+              size={size}
               color={color}
             />
           )
@@ -39,10 +39,10 @@ export default function TabsLayout() {
         name='favorites/index'
         options={{
           title: 'Favorites',
-          tabBarIcon: ({ color }) => (
+          tabBarIcon: ({ color, size }) => (
             <Ionicons
-              size={28}
               name='star-outline'
+              size={size}
               color={color}
             />
           )

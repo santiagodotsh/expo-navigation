@@ -6,12 +6,12 @@ export default function HomeScreen() {
   return (
     <SafeAreaView>
       <View className='px-10 mt-5'>
-        <CustomButton onPress={() => router.push('/tabs/(stack)/products')} className='mb-2'>
+        <CustomButton onPress={() => router.push('/drawer/tabs/(stack)/products')} className='mb-2'>
           Products
         </CustomButton>
 
         <CustomButton
-          onPress={() => router.push('/tabs/(stack)/profile')}
+          onPress={() => router.push('/drawer/tabs/(stack)/profile')}
           color='secondary'
           className='mb-2'
         >
@@ -19,7 +19,7 @@ export default function HomeScreen() {
         </CustomButton>
 
         <CustomButton
-          onPress={() => router.push('/tabs/(stack)/settings')}
+          onPress={() => router.push('/drawer/tabs/(stack)/settings')}
           color='tertiary'
           className='mb-2'
         >

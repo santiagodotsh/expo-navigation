@@ -8,7 +8,7 @@ export default function ProductScreen() {
   const product = products.find(prod => prod.id === id)
 
   if (!product) {
-    return <Redirect href='/tabs/(stack)/home' />
+    return <Redirect href='/' />
   }
 
   return (
