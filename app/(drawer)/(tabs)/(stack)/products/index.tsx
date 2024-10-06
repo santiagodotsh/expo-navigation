@@ -21,7 +21,7 @@ export default function ProductsScreen() {
                 $ {item.price}
               </Text>
 
-              <Link href={`/drawer/tabs/(stack)/products/${item.id}`} className='text-primary'>
+              <Link href={`/products/${item.id}`} className='text-primary'>
                 Details
               </Link>
             </View>
